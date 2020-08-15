@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Blue Blaster Bolts-->
+  
+  <ThingDef Name="BlueBolt" ParentName="BaseBullet" Abstract="True">
+    <defName>Blue_Blaster_Bolt</defName>
+    <label>Blue Blaster Bolt</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Laser</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+ 
+	<!--========== Low ==========-->
+  
+   <ThingDef ParentName="BlueBolt">
+    <defName>Low_Blue_Blaster_Bolt</defName>
+    <label>Low Blue Blaster Bolt</label>
+	<projectile>
+      <damageDef>Burn</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>	
+
+	<!--========== Middle ==========-->
+
+   <ThingDef ParentName="BlueBolt">
+    <defName>Mid_Blue_Blaster_Bolt</defName>
+    <label>Low Blue Blaster Bolt</label>
+	<projectile>
+      <damageDef>Burn</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>	
+
+	<!--========== High ==========-->
+  
+   <ThingDef ParentName="BlueBolt">
+    <defName>High_Blue_Blaster_Bolt</defName>
+    <label>Low Blue Blaster Bolt</label>
+	<projectile>
+      <damageDef>Burn</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>	  
+
+  <!-- Red Blaster Bolts-->
+  
+  <ThingDef Name="RedBolt" ParentName="BaseBullet" Abstract="True">
+    <defName>Red_Blaster_Bolt</defName>
+    <label>Blue Blaster Bolt</label>
+    <graphicData>
+      <texPath>Things/Projectile/Red_Bullet_Laser</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+	<!--========== Low ==========-->
+
+   <ThingDef ParentName="RedBolt">
+    <defName>Low_Red_Blaster_Bolt</defName>
+    <label>Low Red Blaster Bolt</label>
+	<projectile>
+      <damageDef>Burn</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>	
+  
+	<!--========== Middle ==========-->
+  
+   <ThingDef ParentName="RedBolt">
+    <defName>Mid_Red_Blaster_Bolt</defName>
+    <label>Mid Red Blaster Bolt</label>
+	<projectile>
+      <damageDef>Burn</damageDef>
+      <damageAmountBase>13</damageAmountBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+
+	<!--========== High ==========-->
+
+   <ThingDef ParentName="RedBolt">
+    <defName>High_Red_Blaster_Bolt</defName>
+    <label>High Red Blaster Bolt</label>
+	<projectile>
+      <damageDef>Burn</damageDef>
+      <damageAmountBase>22</damageAmountBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>	  
+
+  <!-- Yellow Blaster Bolts-->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>Yellow_Bullet_Laser</defName>
+    <label>Yellow Bullet Laser</label>
+    <graphicData>
+      <texPath>Things/Projectile/Yellow_Bullet_Laser</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Burn</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+  
+   <!-- B-2 Wrist Cannon -->
+	
+	<ThingDef ParentName="BaseBullet">
+	  <defName>B-2_Droid_Wrist_Canno_shot</defName>
+	  <label>B-2 Droid Wrist Canno</label>
+	  <graphicData>
+		<texPath>Things/Projectile/Red_Bullet_cannon</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+		<damageDef>Burn</damageDef>
+		<damageAmountBase>20</damageAmountBase>
+		<speed>50</speed>
+		</projectile>
+	</ThingDef>  
+
+</Defs>

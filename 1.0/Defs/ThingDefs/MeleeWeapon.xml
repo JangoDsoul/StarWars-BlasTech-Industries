@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--  Electrostaff -->
+
+ <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Electrostaff</defName>
+    <label>Electrostaff</label>
+    <description>An electrostaff was a staff-like melee weapon manufactured by Baktoid Armor Workshop and Holowan Mechanicals. They were used by the Confederacy of Independent Systems' IG-100 MagnaGuard.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Electrostaff</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.8</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>StarWarsWeapons</li>
+	  <li>Electrostaff</li>
+    </weaponTags>
+    <costStuffCount>25</costStuffCount>
+	<!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories> -->
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1.0</Mass>
+    </statBases>
+    <tools>
+      <li>
+        <label>head</label>
+		<labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.6</cooldownTime>
+		<chanceFactor>50</chanceFactor>
+		 <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+	   <li>
+        <label>jab</label>
+        <capacities>
+          <li>Electrostaff_Stun</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.2</cooldownTime>
+		<chanceFactor>55</chanceFactor>
+		<surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>		
+		</li>
+    </tools>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<skillRequirements>
+			     <Crafting>7</Crafting>
+		    </skillRequirements>
+			<recipeUsers Inherit="False">
+			<li>Blastech_Workbench</li>
+            </recipeUsers>
+		</recipeMaker>
+	  	<costList>
+			<Steel>20</Steel>
+			<Plasteel>100</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+  </ThingDef>
+  
+  <!-- Vibrosword -->
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Vibrosword</defName>
+    <label>Vibrosword</label>
+    <description>Vibroswords were a type of vibroblade and sword. BX-series droid commando command units serving the Confederacy of Independent Systems during the Clone Wars carried vibroswords for one-on-one combat.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Vibrosword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <equippedAngleOffset>-60</equippedAngleOffset>	
+    <weaponTags>
+	  <li>StarWarsWeapons</li>
+	  <li>Vibrosword</li>
+    </weaponTags>
+    <costStuffCount>45</costStuffCount>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>1.6</Mass>
+    </statBases>
+    <!-- <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories> -->
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>50</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<skillRequirements>
+			     <Crafting>7</Crafting>
+		    </skillRequirements>
+			<recipeUsers Inherit="False">
+			<li>Blastech_Workbench</li>
+            </recipeUsers>
+		</recipeMaker>
+	  	<costList>
+			<Steel>50</Steel>
+			<Plasteel>150</Plasteel>
+		</costList>
+	</ThingDef>	
+</Defs>

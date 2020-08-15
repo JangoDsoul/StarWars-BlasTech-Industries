@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DamageDef>
+		<defName>Electrostaff_Stun</defName>
+		<label>stun electrostaff</label>
+		<workerClass>SpacerMelee.DamageWorker_AddHediff</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been shocked to death.</deathMessage>
+		<!--<hediff>Name</hediff>
+		<hediffSolid>Name</hediffSolid>
+		<additionalHediffs>
+			<li>
+				<hediff>BSP_StunPain</hediff>
+				<severityPerDamageDealt>1</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+		<harmAllLayersUntilOutside>false</harmAllLayersUntilOutside>
+		<hediff>Crush</hediff>
+		<hediffSolid>Crack</hediffSolid> -->
+		<additionalHediffs>
+			<li>
+				<hediff>Electrostaff_Stun</hediff>
+				<severityPerDamageDealt>0.2</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Blunt</armorCategory>
+	</DamageDef>
+
+</Defs>

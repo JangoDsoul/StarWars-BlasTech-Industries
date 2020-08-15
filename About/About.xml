@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>[JDS] Star Wars BlasTech Industries</name>
+	<author>JangoD'soul</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>		
+	</supportedVersions>
+	<packageId>JangoDsoul.StarWars.BTI</packageId>
+	<description>
+This mod add StarWars Weapons into Rimworld
+
+Note: No CE patch, if you want to make it be my guess
+
+[h1]Features:[/h1]
+ -Blastech Workbench
+ -DC-17 Blaster Pistol
+ -DC-17M Blaster
+ -DC-17B Blaster Pistol
+ -DC-15A Blaster Rifle
+ -DC-15S Blaster Carbine
+ -DC-15x Sinper Rifle
+ -E-5 Blaster_Rifle
+ -Z6 Rotary_Blaster_Cannon
+ -B-2 Wrist Blaster
+ -B-2 Wrist Cannon
+ -E-5S Sniper Rifle
+ -SE-14 Light Blaster Pistol
+ -EE-3 Carbine Rifle
+ -Westar-M5
+ -Westar-34
+ -Westar-35
+ -Amban Rifle
+ -Mando Blaster Carbine
+ -Heavy Mando Weapon
+ 
+
+[h1]Crafting Requirements[/h1]
+  -Craftable at Blastech Workbench
+  -Research Requirements: Blastech Weapons
+
+[h1]Credits:[/h1]
+-Preview art inspires by "Star Wars - Factions"
+- DC-17M_Blaster Art by: Survivalmaster
+	</description>
+</ModMetaData>

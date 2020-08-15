@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============= Smithing ============= -->
+
+  <WorkGiverDef>
+    <defName>DoBillsMakeBlastechWeapons</defName>
+    <label>make weapon</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Smithing</workType>
+    <priorityInType>103</priorityInType>
+    <fixedBillGiverDefs>
+      <li>Blastech_Workbench</li>
+    </fixedBillGiverDefs>
+    <verb>fabricating things</verb>
+    <gerund>fabricating things at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+</Defs>
