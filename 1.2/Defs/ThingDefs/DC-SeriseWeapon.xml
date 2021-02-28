@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- DC-17 Blaster Pistol-->
+  
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>DC-17_Blaster_Pistol</defName>
+		<label>DC-17 Blaster Pistol</label>
+		<description>Like all blasters of the DC-line manufactured by BlasTech Industries, the DC-17 hand blaster fired blue plasma projectiles that were hyper-ionized to be especially devastating against droids while retaining its lethality against organic beings.</description>
+		<graphicData>
+			<texPath>Things/Weapons/DC-17_Blaster_Pistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<researchPrerequisite>LaserWeapons</researchPrerequisite>
+			<skillRequirements>
+			     <Crafting>7</Crafting>
+		    </skillRequirements>
+			<recipeUsers Inherit="False">
+			<li>Blastech_Workbench</li>
+            </recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MarketValue>1500</MarketValue>
+			<Mass>1.5</Mass>
+			<AccuracyTouch>1.00</AccuracyTouch>
+			<AccuracyShort>0.90</AccuracyShort>
+			<AccuracyMedium>0.50</AccuracyMedium>
+			<AccuracyLong>0.20</AccuracyLong>
+			<RangedWeapon_Cooldown>0.90</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>20</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<weaponTags>
+			<li>StarWarsWeapons</li>
+			<li>DC-17_Blaster_Pistol</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Low_Blue_Blaster_Bolt</defaultProjectile>
+				<warmupTime>0.05</warmupTime>
+				<range>20</range>
+				<soundCast>DC-17_Blaster_Pistol_Shot</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>7</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
+	
+  <!-- DC17B Blaster Pistol-->
+  
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>DC17B_Blaster_Pistol</defName>
+		<label>DC-17B Blaster Pistol</label>
+		<description>Like all blasters of the DC-line manufactured by BlasTech Industries, the DC-17B hand blaster fired blue plasma projectiles that were hyper-ionized to be especially devastating against droids while retaining its lethality against organic beings.</description>
+		<graphicData>
+			<texPath>Things/Weapons/DC17B_Blaster_Pistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<researchPrerequisite>LaserWeapons</researchPrerequisite>
+			<skillRequirements>
+			     <Crafting>7</Crafting>
+		    </skillRequirements>
+			<recipeUsers Inherit="False">
+			<li>Blastech_Workbench</li>
+            </recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MarketValue>1650</MarketValue>
+			<Mass>1.5</Mass>
+			<AccuracyTouch>1.00</AccuracyTouch>
+			<AccuracyShort>0.90</AccuracyShort>
+			<AccuracyMedium>0.50</AccuracyMedium>
+			<AccuracyLong>0.20</AccuracyLong>
+			<RangedWeapon_Cooldown>0.90</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>20</Steel>
+			<Plasteel>50</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<weaponTags>
+			<li>StarWarsWeapons</li>
+			<li>DC-17B_Blaster_Pistol</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Low_Blue_Blaster_Bolt</defaultProjectile>
+				<warmupTime>0.05</warmupTime>
+				<range>22</range>
+				<soundCast>DC-17_Blaster_Pistol_Shot</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>7</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>	
+	
+  <!-- DC-15S Blaster Carbine -->
+  
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>DC-15S_Blaster_Carbine</defName>
+		<label>DC-15S Blaster Carbine</label>
+		<description>Smaller in scale than the DC-15A blaster rifle, the DC-15S blaster lacked its larger cousin's range, but was easier to handle than its bulkier cousin with a higher rate of fire.</description>
+		<graphicData>
+			<texPath>Things/Weapons/DC-15S_Blaster_Carbine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_SMG</soundInteract>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<researchPrerequisite>LaserWeapons</researchPrerequisite>
+			<skillRequirements>
+			     <Crafting>7</Crafting>
+		    </skillRequirements>
+			<recipeUsers Inherit="False">
+			<li>Blastech_Workbench</li>
+		
+            </recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>35000</WorkToMake>
+			<MarketValue>2250</MarketValue>
+			<Mass>3.5</Mass>
+			<AccuracyTouch>0.97</AccuracyTouch>
+			<AccuracyShort>0.90</AccuracyShort>
+			<AccuracyMedium>0.70</AccuracyMedium>
+			<AccuracyLong>0.25</AccuracyLong>
+			<RangedWeapon_Cooldown>.065</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>35</Steel>
+			<Plasteel>50</Plasteel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<weaponTags>
+			<li>StarWarsWeapons</li>
+			<li>DC-15S_Blaster_Carbine</li>
+		</weaponTags>			
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Mid_Blue_Blaster_Bolt</defaultProjectile>
+				<warmupTime>0.8</warmupTime>
+				<range>25</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>DC-15S_Blaster_Carbine_Shot</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
+	
+  <!-- DC-15A Blaster Rifle -->
+  
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>DC-15A_Blaster_Rifle</defName>
+    <label>DC-15A Blaster Rifle</label>
+    <description>The DC-15A blaster rifle was one of the standard issue weapons for clone troopers. While the use of blasters allowed a clone trooper to carry significantly more ammunition than a projectile weapon.</description>
+    <graphicData>
+      <texPath>Things/Weapons/DC-15A_Blaster_Rifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>45</equippedAngleOffset>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<researchPrerequisite>LaserWeapons</researchPrerequisite>
+			<skillRequirements>
+			     <Crafting>7</Crafting>
+		    </skillRequirements>
+			<recipeUsers Inherit="False">
+			<li>Blastech_Workbench</li>
+            </recipeUsers>
+		</recipeMaker>
+    <statBases>
+	  <WorkToMake>55000</WorkToMake>
+      <MarketValue>3000</MarketValue>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>1.20</RangedWeapon_Cooldown>
+    </statBases>
+	<costList>
+		<Steel>100</Steel>
+		<Plasteel>70</Plasteel>
+		<ComponentIndustrial>5</ComponentIndustrial>
+		<ComponentSpacer>3</ComponentSpacer>
+    </costList>
+		<weaponTags>
+			<li>StarWarsWeapons</li>
+			<li>DC-15A_Blaster_Rifle</li>
+		</weaponTags>		
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Mid_Blue_Blaster_Bolt</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>35</range>
+        <burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+        <soundCast>DC-15A_Blaster_Rifle_Shot</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  <!-- Z6 Rotary Blaster Cannon -->
+  
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>Z6_Rotary_Blaster_Cannon</defName>
+		<label>Z6 Rotary Blaster Cannon</label>
+		<description>The Z-6 rotary blaster cannon was a powerful rotating blaster cannon chaingun developed by Merr-Sonn Munitions</description>
+		<graphicData>
+			<texPath>Things/Weapons/Z6_Rotary_Blaster_Cannon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+	    <equippedAngleOffset>45</equippedAngleOffset>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<researchPrerequisite>LaserWeapons</researchPrerequisite>
+			<skillRequirements>
+			     <Crafting>7</Crafting>
+		    </skillRequirements>
+			<recipeUsers Inherit="False">
+			<li>Blastech_Workbench</li>
+            </recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>40000</WorkToMake>
+			<MarketValue>3250</MarketValue>
+			<Mass>8.5</Mass>
+			<AccuracyTouch>0.40</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.85</AccuracyMedium>
+			<AccuracyLong>0.70</AccuracyLong>
+			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>50</Steel>
+			<Plasteel>80</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<weaponTags>
+			<li>StarWarsWeapons</li>
+			<li>Z6_Rotary_Blaster_Cannon</li>
+		</weaponTags>			
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Low_Blue_Blaster_Bolt</defaultProjectile>
+				<warmupTime>1.5</warmupTime>
+				<range>30</range>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+				<burstShotCount>25</burstShotCount>
+				<soundCast>Z6_Rotary_Blaster_Cannon_Shot</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  <!-- DC-17M Blaster -->
+  	
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>DC-17M_Repeating_Blaster_Rifle</defName>
+		<label>DC-17M Repeating Blaster Rifle</label>
+		<description>The DC-17m Interchangeable Weapon System, also known as the DC-17m Repeating Blaster Rifle, was a type of blaster rifle used by Republic Clone commandos during the Clone Wars.</description>
+		<graphicData>
+			<texPath>Things/Weapons/DC-17M_Blaster</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_SMG</soundInteract>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<researchPrerequisite>LaserWeapons</researchPrerequisite>
+			<skillRequirements>
+			     <Crafting>7</Crafting>
+		    </skillRequirements>
+			<recipeUsers Inherit="False">
+			<li>Blastech_Workbench</li>
+            </recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>35000</WorkToMake>
+			<MarketValue>2500</MarketValue>
+			<Mass>3.5</Mass>
+			<AccuracyTouch>0.95</AccuracyTouch>
+			<AccuracyShort>0.69</AccuracyShort>
+			<AccuracyMedium>0.60</AccuracyMedium>
+			<AccuracyLong>0.42</AccuracyLong>
+			<RangedWeapon_Cooldown>.50</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>35</Steel>
+			<Plasteel>50</Plasteel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<weaponTags>
+			<li>StarWarsWeapons</li>
+			<li>DC-17M_Blaster</li>
+		</weaponTags>			
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Mid_Blue_Blaster_Bolt</defaultProjectile>
+				<warmupTime>0.8</warmupTime>
+				<range>20</range>
+				<burstShotCount>5</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>DC-17_Blaster_Pistol_Shot</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>  
+  
+	<!-- DC15x Sinper Rifle -->
+	
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>DC15x_Sinper_Rifle</defName>
+    <label>DC15x Sinper Rifle</label>
+    <description>It was a modified version of the DC-15A sniper rifle, dealing more damage, but containing less shots</description>
+    <graphicData>
+      <texPath>Things/Weapons/DC15x_Sinper_Rifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>45</equippedAngleOffset>	
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<researchPrerequisite>LaserWeapons</researchPrerequisite>
+			<skillRequirements>
+			     <Crafting>7</Crafting>
+		    </skillRequirements>
+			<recipeUsers Inherit="False">
+			<li>Blastech_Workbench</li>
+            </recipeUsers>
+		</recipeMaker>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <MarketValue>3000</MarketValue>
+      <Mass>5</Mass>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.95</AccuracyMedium>
+      <AccuracyLong>0.90</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+		<Steel>40</Steel>
+		<Plasteel>75</Plasteel>
+		<ComponentIndustrial>6</ComponentIndustrial>
+		<ComponentSpacer>4</ComponentSpacer>
+    </costList>
+	<weaponTags>
+		<li>StarWarsWeapons</li>
+        <li>DC15x_Sinper_Rifle</li>		
+	</weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>High_Blue_Blaster_Bolt</defaultProjectile>
+        <warmupTime>3</warmupTime>
+        <range>50</range>
+		<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+		<burstShotCount>1</burstShotCount>
+        <soundCast>38x-targeting-rifle-sound-effects-battlefront-ii</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>10</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>  
+  
+    <!-- magic
+    <ThingCategoryDef>
+      <defName>LS_Magic</defName>
+      <label>magic</label>
+      <parent>Weapons</parent>
+	</ThingCategoryDef> -->
+	<!--<drawSize></drawSize>-->
+	<!--<equippedAngleOffset></equippedAngleOffset>-->
+  
+</Defs>

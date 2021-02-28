@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Westar-34 Blaster Pistol-->
+  
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>Westar-34_Blaster_Pistol</defName>
+		<label>Westar-34 Blaster Pistol</label>
+		<description>The WESTAR-34 was widely favored by humans of Mandalorian heritage, who would very often dual-wield them in combat.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Westar-34_Blaster_Pistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<researchPrerequisite>LaserWeapons</researchPrerequisite>
+			<skillRequirements>
+			     <Crafting>7</Crafting>
+		    </skillRequirements>
+			<recipeUsers Inherit="False">
+			<li>Blastech_Workbench</li>
+            </recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MarketValue>1500</MarketValue>
+			<Mass>1.5</Mass>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.50</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>20</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<weaponTags>
+			<li>StarWarsWeapons</li>
+			<li>Westar-34_Blaster_Pistol</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Mid_Red_Blaster_Bolt</defaultProjectile>
+				<warmupTime>0.25</warmupTime>
+				<range>25</range>
+				<soundCast>1Mandalorian_Blaster_Weapon_Shot</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>7</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
+
+  <!-- Westar-35 Blaster Pistol-->
+  
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>Westar-35_Blaster_Pistol</defName>
+		<label>Westar-35 Blaster Pistol</label>
+		<description>The WESTAR-35 was widely favored by humans of Mandalorian heritage, who would very often dual-wield them in combat.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Westar-35_Blaster_Pistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<researchPrerequisite>LaserWeapons</researchPrerequisite>
+			<skillRequirements>
+			     <Crafting>7</Crafting>
+		    </skillRequirements>
+			<recipeUsers Inherit="False">
+			<li>Blastech_Workbench</li>
+            </recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MarketValue>1500</MarketValue>
+			<Mass>1.5</Mass>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.50</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>20</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<weaponTags>
+			<li>StarWarsWeapons</li>
+			<li>Westar-35_Blaster_Pistol</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Mid_Red_Blaster_Bolt</defaultProjectile>
+				<warmupTime>0.25</warmupTime>
+				<range>25</range>
+				<soundCast>1Mandalorian_Blaster_Weapon_Shot</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>7</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
+
+  <!-- Westar-M5 Blaster Rifle -->
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Westar-M5_Blaster_Rifle</defName>
+    <label>Westar-M5_Blaster Rifle</label>
+    <description>The WESTAR-M5 blaster rifle was a blaster rifle used during the Clone Wars by the Grand Army of the Republic. They were mainly used by Advanced Recon Commandos and Galactic Marines</description>
+    <graphicData>
+      <texPath>Things/Weapons/Westar-M5</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<researchPrerequisite>LaserWeapons</researchPrerequisite>
+			<skillRequirements>
+			     <Crafting>7</Crafting>
+		    </skillRequirements>
+			<recipeUsers Inherit="False">
+			<li>Blastech_Workbench</li>
+            </recipeUsers>
+		</recipeMaker>
+    <statBases>
+	  <WorkToMake>55000</WorkToMake>
+      <MarketValue>3000</MarketValue>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>1.20</RangedWeapon_Cooldown>
+    </statBases>
+	<costList>
+		<Steel>100</Steel>
+		<Plasteel>70</Plasteel>
+		<ComponentIndustrial>5</ComponentIndustrial>
+		<ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <weaponTags>
+	  <li>StarWarsWeapons</li>	
+      <li>Westar-M5_Blaster_Rifle</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>High_Blue_Blaster_Bolt</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>35</range>
+        <burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+        <soundCast>DC-15A_Blaster_Rifle_Shot</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+	
+</Defs>
